@@ -1,0 +1,21 @@
+.div__btn{
+    background: #000;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .btn{
+    border-color: yellow;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #000;
+    color: aliceblue;
+    box-shadow: 8px 5px 15px yellow;
+    border-radius: 10px;
+    cursor: pointer;
+}
