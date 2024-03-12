@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    cursor: pointer;
+    /* padding: 15px;
+    border-radius: 10px;
+    font-size: 18px; */
+
+}
+.btn-text-two{
+    background-color: red;
+    visibility: hidden;
+    /* display: none; */
+}
+.btn-text-two:hover{
+    visibility: visible;
+}
+.btn-text-one:hover{
+visibility: hidden;
+}
+.btn:hover::after{
+background-color:red;
+content:" It's Interesting";
+
+
+
+}
