@@ -1,0 +1,30 @@
+*{
+margin: 0;
+padding: 0;
+}
+nav{
+    background-color: #161515;
+    margin-top: 200px;
+display: flex;
+justify-content: space-around;
+   height: 60px;
+   margin-left: 100px;
+   margin-right: 100px;
+   border-radius: 10px;
+}
+nav a{ 
+    text-decoration: none;  
+    
+
+}
+
+a{
+   
+ margin-top: 20px;
+  font-size: 18px;
+    color: aliceblue;
+    font-weight: 400;
+}
+a:hover{
+    color: rgb(17, 235, 32);
+}
